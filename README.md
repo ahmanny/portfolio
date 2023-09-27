@@ -1,12 +1,13 @@
 [![License: MIT](docs/img/license-badge.svg)](LICENSE)
 
-# Indie Base
+# Indie Base 🕹
 
 A Nuxt 3 starter template. Includes:
 
 - TailwindCSS
 - Prettier + Tailwind Plugin
 - Pinia
+- Git LFS entries for common binary file extensions
 
 ## Setup
 
