@@ -1,20 +1,17 @@
-[![License: MIT](docs/img/license-badge.svg)](LICENSE)
-
-# Indie Base 🕹
-
-A Nuxt 3 starter template. Includes:
+My portforlio using NUXT 3. Includes:
 
 - TailwindCSS
 - Prettier + Tailwind Plugin
 - Pinia
 - Git LFS entries for common binary file extensions
+- Element UI
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-npm install # or  yarn install
+npm install 
 ```
 
 ## Development Server
@@ -22,7 +19,7 @@ npm install # or  yarn install
 Start the development server on [`localhost:3000`](http://localhost:3000):
 
 ```bash
-npm run dev # or yarn dev
+npm run dev 
 ```
 
 ## Production
@@ -30,15 +27,13 @@ npm run dev # or yarn dev
 Build the application for production:
 
 ```bash
-npm run build # or yarn build
+npm run build 
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview #or yarn preview
+npm run preview 
 ```
 
 ## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
