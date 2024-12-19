@@ -4,7 +4,7 @@
       @click="profile_drawer = true"
       class="h-[36px] w-[36px] cursor-pointer overflow-hidden rounded-full bg-[#FFFFFF]"
     >
-      <img src="/profile.img.png" alt="Solomon"
+      <img src="/profile.png" alt="Solomon"
     /></div>
     <div class="flex items-center justify-center gap-4 overflow-hidden">
       <ThemeToggle />
