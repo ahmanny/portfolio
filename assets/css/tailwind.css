@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#F6F6F6] py-8 font-sans  dark:bg-[#131313] dark:text-white;
+}
+.card {
+  @apply rounded-[12px] bg-[#FFFFFF] shadow-sm dark:bg-[#1C1C1C];
+}
+.navbarItem {
+  @apply flex h-[48px] w-[48px] items-center justify-center rounded-[8px] text-black text-opacity-60 hover:text-opacity-100 dark:text-white dark:text-opacity-70 dark:hover:text-opacity-100;
+}
+
+.active {
+  @apply rounded-[8px] bg-[#F78F42] text-black hover:text-opacity-70;
+}
+.linkDark {
+  @apply dark:text-white dark:text-opacity-70 dark:hover:text-opacity-100;
+}
+.link {
+  @apply text-black text-opacity-60 hover:text-opacity-100;
+}
+.text_base2 {
+  @apply text-black text-opacity-60;
+}
+.text_base2_dark {
+  @apply dark:text-white dark:text-opacity-60;
+}
+.el-popper.is-customized {
+  @apply bg-[#EEEEEE] px-[8px] py-[4px] dark:bg-[#0F0F0F];
+}
+.el-popper.is-customized .el-popper__arrow::before {
+  @apply right-0 bg-[#EEEEEE] dark:bg-[#0F0F0F];
+}
+.el-tabs--card .el-tabs__item {
+  @apply text-base;
+}
+.el-tabs__nav-scroll {
+  @apply flex items-center justify-center border-none;
+}
+.el-tabs__nav {
+  @apply !flex !flex-col md:!flex-row;
+}
+.el-tabs__item {
+  @apply !px-[24px] !text-base !text-black !text-opacity-60 dark:!text-white dark:!text-opacity-60;
+}
+.el-tabs__item.is-active,
+.el-tabs__item:hover {
+  @apply !text-[#F78F42];
+}
+
+.el-tabs__active-bar {
+  @apply !hidden;
+}
+.el-tabs__nav-wrap:after {
+  @apply !hidden;
+}
+.formLabel {
+  @apply mb-[8px] text-sm !text-black !text-opacity-80 dark:!text-white dark:!text-opacity-80;
+}
+.input {
+  @apply !h-[48px] !rounded-[80px] !border-transparent !p-0;
+}
+.input .el-input__inner {
+  @apply !p-0 text-black dark:!text-white;
+}
+.el-input__wrapper {
+  @apply !bg-[#F6F6F6] !text-white dark:!bg-[#131313];
+}
+.el-textarea__inner {
+  @apply !bg-[#F6F6F6] text-black dark:!bg-[#131313] dark:!text-white;
+}
+.btn {
+  @apply flex h-[48px] items-center  justify-center rounded-[8px] bg-[#F78F42] text-base font-medium text-black shadow-md transition-all duration-300 hover:bg-orange-500;
+}
