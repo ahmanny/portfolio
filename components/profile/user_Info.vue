@@ -4,7 +4,7 @@
       <div
         class="mx-auto h-[120px] w-[120px] overflow-hidden rounded-full border-[3px] border-solid border-black bg-[#FFFFFF] dark:border-white"
       >
-        <img src="/public/profile.img.png" alt="Solomon"
+        <img src="/profile.img.png" alt="Solomon"
       /></div>
       <div>
         <h1 class="text-2xl font-bold">Ahman Solomon</h1>
