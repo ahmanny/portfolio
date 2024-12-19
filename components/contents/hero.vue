@@ -2,6 +2,7 @@
   <div
     class="flex h-[320px] items-center justify-center gap-[40px] md:h-[350px] md:px-[34px] xl:h-[492px] xl:justify-between 2xl:px-[64px]"
   >
+    <img src="/assets/css/flyer.png" alt="" />
     <div
       class="flex w-full flex-col items-center justify-center gap-[24px] md:w-[400px] md:items-start xl:w-[660px]"
     >
