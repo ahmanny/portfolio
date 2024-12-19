@@ -9,7 +9,13 @@
     <div class="border-t-[1px] border-solid border-opacity-10"></div>
     <ProfileExtraSkill />
     <div class="border-t-[1px] border-solid border-opacity-10"></div>
-    <a href="#" title="coming soon" class="btn gap-[20px]">
+    <a
+      href="https://1drv.ms/b/c/da8ce2487d38456a/EeAeN8WFEDlFqZbB6FXR4l8BF05Y4adu23EeRxdWxuSgzA?e=Qn2Qyv"
+      target="_blank"
+      rel="noopener noreferrer"
+      download="Ahman_Solomon_CV.pdf"
+      class="btn gap-[20px]"
+    >
       Download My CV
       <span><i class="mdi mdi-cloud-download-outline"></i></span>
     </a>
